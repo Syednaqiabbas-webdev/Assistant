@@ -77,7 +77,7 @@ else if (message.includes("abbas ki kitni bahan hai")) {
         window.open("https://www.youtube.com/")
     }else if (message.includes("open gmail")) {
         speak("Opening gmail")
-        window.open("https://www.google.com/search?sca_esv=a2d1b3f2df31e648&sxsrf=AHTn8zoUbxU7wThLNNT_AGipu6C3hmu2jw:1744317994056&q=Gmail&stick=H4sIAAAAAAAAAOMwVOLUz9U3MCqMT8r-xciwgYXhFYsGF49-ur5hRlJ8SnquWYkQt3t-fnpOqoJLfnKxFDLnFYs2FzdIu6FBhXFympkQL1QyOCczJbVYCpX7ikWSC2GZEKt7bmJmjhSEesWiC5FLzk4xzBHih2p0TsxJzUtJLJJCF0C12SgbYXNGamoJks1gLshLXCDVxoXZGWkpQjww2cwSoCtReK9YVCBKMyxNKo3NhLh885MygZKJBQVSSOxXLFpcHCBlpkaVZUJ8vpnJRfnF-WklCuH5RSlSaHyE9eWW6QZpcOtdijLLUqVQeK9YlCHhYFhgllEpxBUeEKzgn5aWmZwqhcRexAoJtVtskgxhfuGfE2ccZnu3ryqtOEGRS3NW9KMD96zWLeIQC0jNLwA5N6c4X6E4NbEoOUMhLb9oBQcjAC6nqib2AQAA&sa=X&ved=2ahUKEwiw1aTzqs6MAxUPzTgGHeO-G6oQs9oBKAB6BAgeEBM")
+        window.open("https://mail.google.com/mail/")
     }else if (message.includes("open google")) {
         speak("Opening Google")
         window.open("https://www.google.co.in/")

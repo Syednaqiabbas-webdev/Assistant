@@ -75,9 +75,9 @@ else if (message.includes("abbas ki kitni bahan hai")) {
     } else if (message.includes("open youtube")) {
         speak("Opening Youtube")
         window.open("https://www.youtube.com/")
-    }else if (message.includes("open gmail")) {
+    }else if (message.includes("open Gmail")) {
         speak("Opening gmail")
-        window.open("https://mail.google.com/mail/")
+        window.open("https://gmail.com/")
     }else if (message.includes("open google")) {
         speak("Opening Google")
         window.open("https://www.google.co.in/")

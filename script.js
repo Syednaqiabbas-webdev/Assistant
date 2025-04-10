@@ -46,11 +46,13 @@ function takeCommand(message) {
     voice.style.display = "none"
     if (message.includes("hello") || message.includes("hey") || message.includes("hi") || message.includes("suno zoya") || message.includes("suno") || message.includes("hello zoya")) {
         speak("hello Dear,How Can I Help You")
-    }
-    else if (message.includes("assalam walekum")) {
+    }else if (message.includes("assalamu walekum")) {
         speak("वालेकुम अस्सालाम")
-    }else if (message.includes("abbas ki kitni bahan hai")) {
-        speak("Abbas ki 2 behan hai saba aur naba")
+    }else if (message.includes("kaisi ho")) {
+        speak("मै ठीक हु जनाब आप अपनी सुनाए कैसे है आप")
+    }
+else if (message.includes("abbas ki kitni bahan hai")) {
+        speak("अब्बास की दो प्यारी बहन है सबा और नबा")
     }else if (message.includes("allah kitne hai")) {
         speak("Allah Sirf ek hai")
     }  else if (message.includes("i love you") || message.includes("i love u")) {
@@ -63,11 +65,11 @@ function takeCommand(message) {
     } else if (message.includes("abbas ka dost kaun hai")) {
         speak("ayaan dost hai")
     } else if (message.includes("who developed you") || message.includes("tumhen kisne banaya") || message.includes("who's created you")) {
-        speak("abbas developed me")
+        speak("अब्बास developed me")
     }else if (message.includes("ahmad kaun hai")) {
         speak("ahmad ek number ka हरामी aur भड़वा ladka hai")
     }else if (message.includes("who are you") || message.includes("zoya who are you") || message.includes("kaun ho tum")) {
-        speak("I am Zoya and your virtual assistant, developed By Abbas ")
+        speak("I am Zoya and your virtual assistant, developed By अब्बास ")
     } else if (message.includes("tell me abbas contact details")){
         speak("here is the contact number 9 1 7 0 1 3 3 0 5 5 ")
     } else if (message.includes("open youtube")) {
@@ -102,8 +104,11 @@ function takeCommand(message) {
     } else if (message.includes("open whatsapp")) {
         speak("Opening whatsapp")
         window.open("whatsapp://")
-    }else if(message.includes("abbas ke kitne bhai hai")){
-        speak("abbas ke do bhai hai aur dono tabahai hai taqi aur zaki")
+    }else if (message.includes("open snapchat")) {
+        speak("Opening snapchat")
+        window.open("https://accounts.snapchat.com/")
+}else if(message.includes("abbas ke kitne bhai hai")){
+        speak("अब्बास के दो भाई है और दोनों तबाही है तकी और ज़की")
     }else if(message.includes("time")){
        let time=new Date().toLocaleString(undefined,{hour:"numeric",minute:"numeric"})
         speak(time)

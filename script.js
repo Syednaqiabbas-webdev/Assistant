@@ -106,7 +106,7 @@ else if (message.includes("abbas ki kitni bahan hai")) {
         window.open("whatsapp://")
     }else if (message.includes("open snapchat")) {
         speak("Opening snapchat")
-        window.open("https://accounts.snapchat.com/")
+        window.open("https://shorturl.at/aebY8")
 }else if(message.includes("abbas ke kitne bhai hai")){
         speak("अब्बास के दो भाई है और दोनों तबाही है तकी और ज़की")
     }else if(message.includes("time")){

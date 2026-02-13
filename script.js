@@ -44,7 +44,7 @@ btn.addEventListener("click", () => {
 function takeCommand(message) {
     btn.style.display = "flex"
     voice.style.display = "none"
-    if (message.includes("hello") || message.includes("hey") || message.includes("hi") || message.includes("suno zoya") || message.includes("suno") || message.includes("hello zoya")) {
+    if (message.includes("hello") || message.includes("hey") || message.includes("hi") || message.includes("suno asma") || message.includes("suno") || message.includes("hello asma")) {
         speak("hello Dear,How Can I Help You")
     }else if (message.includes("assalamu walekum")) {
         speak("वालेकुम अस्सालाम")
@@ -68,8 +68,8 @@ else if (message.includes("abbas ki kitni bahan hai")) {
         speak("अब्बास developed me")
     }else if (message.includes("ahmad kaun hai")) {
         speak("ahmad ek number ka हरामी aur भड़वा ladka hai")
-    }else if (message.includes("who are you") || message.includes("zoya who are you") || message.includes("kaun ho tum")) {
-        speak("I am Zoya and your virtual assistant, developed By अब्बास ")
+    }else if (message.includes("who are you") || message.includes("asma who are you") || message.includes("kaun ho tum")) {
+        speak("I am asma and your virtual assistant, developed By अब्बास ")
     } else if (message.includes("tell me abbas contact details")){
         speak("here is the contact number 9 1 7 0 1 3 3 0 5 5 ")
     } else if (message.includes("open youtube")) {

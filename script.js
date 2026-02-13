@@ -94,7 +94,7 @@ else if (message.includes("abbas ki kitni bahan hai")) {
     } else if (message.includes("open calculator")) {
         speak("Opening calculator..")
         window.open("calculator://")
-    } else if (message.includes("open clock") || (message.includes("zoya time kya ho raha hai"))) {
+    } else if (message.includes("open clock") || (message.includes("Asma time kya ho raha hai"))) {
         speak("Opening Clock in your browser")
         window.open("https://dayspedia.com/time/online/")
     } else if (message.includes("open setting")) {

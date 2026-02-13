@@ -69,7 +69,7 @@ else if (message.includes("abbas ki kitni bahan hai")) {
     }else if (message.includes("ahmad kaun hai")) {
         speak("ahmad ek number ka हरामी aur भड़वा ladka hai")
     }else if (message.includes("who are you") || message.includes("asma who are you") || message.includes("kaun ho tum")) {
-        speak("I am asma and your virtual assistant, developed By अब्बास ")
+        speak("I am asma अब्बास and ,अब्बास ki bivi hu")
     } else if (message.includes("tell me abbas contact details")){
         speak("here is the contact number 9 1 7 0 1 3 3 0 5 5 ")
     } else if (message.includes("open youtube")) {
